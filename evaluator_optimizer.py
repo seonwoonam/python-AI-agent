@@ -7,6 +7,7 @@
 
 from utils import llm_call
 
+# 통과할 때까지 계속해서 반복해서 실행
 def loop_workflow(user_query, evaluator_prompt, max_retries=5) -> str:
     """평가자가 생성된 요약을 통과할 때까지 최대 max_retries번 반복."""
 
