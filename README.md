@@ -1,2 +1,2 @@
 # python-AI-agent
-프레임워크 사용없이 파이썬 만으로 AI Agent 구현
+Langchain과 같은 프레임워크가 하는 LLM Worflow를 파이썬으로 직접 구현해봅니다.
